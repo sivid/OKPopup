@@ -1,19 +1,20 @@
 {
 	"name": "okpopup",
-	"title": "OKPopup",
-	"id": "okpopup",
-	"description": "Stops the 'wanted' popups, that users do not want, from appearing.  Press red button for instant relief.",
-	"author": "Sivid13",
-	"license": "MPL 2.0",
-	"version": "0.1",
-	"icon": "okpopup-48.png",
-	"preferences": [{
-		"name": "okpopup",
-		"title": "OKPopup init",
-		"description": "if true stop popups, if false default",
-		"type": "bool",
-		"value": false,
-		"hidden": true
-	}]
-	
+	"description": "Stops the 'wanted' popups, that users do not want, from appearing.  Press red button for instant relief.", 
+	"license": "MPL 2.0", 
+	"author": "Sivid13", 
+	"title": "OKPopup", 
+	"version": "0.1", 
+	"icon": "okpopup-48.png", 
+	"id": "okpopup", 
+	"preferences": [
+		{
+			"description": "if true stop popups, if false default", 
+			"title": "OKPopup init", 
+			"value": false, 
+			"hidden": true, 
+			"type": "bool", 
+			"name": "okpopup"
+		}
+	]
 }
